@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.sidebar .icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Content Styles */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.section {
+    display: none;
+}
+
+.section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.section table, .section th, .section td {
+    border: 1px solid #dee2e6;
+}
+
+.section th, .section td {
+    padding: 10px;
+    text-align: left;
+}
+
+.section th {
+    background-color: #f8f9fa;
+}
+
+.section .action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.section .action-buttons button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.section .action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.section .action-buttons form {
+    display: inline;
+}
+
+.section .action-buttons form button {
+    background-color: #dc3545;
+}
+
+.section .action-buttons form button:hover {
+    background-color: #c82333;
+}
+
+/* Additional Styles */
+.sidebar a.logout {
+    margin-top: auto;
+    background-color: #dc3545;
+}
+
+.sidebar a.logout:hover {
+    background-color: #c82333;
+}

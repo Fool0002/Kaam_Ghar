@@ -1,0 +1,117 @@
+/* Dashboard styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.notification {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.job-listing {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing h4 {
+    margin: 0;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.job-listing p {
+    margin: 10px 0;
+    color: #6c757d;
+    font-size: 16px;
+}
+
+.job-listing form {
+    margin-top: 20px;
+}
+
+.job-listing input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.job-listing input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.job-listing a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job-listing a:hover {
+    text-decoration: underline;
+}
+#bell {
+    height :30px;
+    width: 30px;
+}
