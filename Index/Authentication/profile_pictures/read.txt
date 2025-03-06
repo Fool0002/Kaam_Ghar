@@ -1,0 +1,1 @@
+Here all the profile picture stays, if not, the code will generate folder automatically
